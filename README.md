@@ -1,2 +1,2 @@
-# coursera-html-css-js-for-webdev
-HTML, CSS and JavaScript for Web Developers assignments
+**HTML, CSS and JavaScript for Web Developers:**
+- Module 2: Introduction to CSS3
