@@ -28,7 +28,7 @@ body {
   font-family: 'Lora', serif;
   color: #61122f;
   font-size: 1.5em;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
@@ -78,6 +78,61 @@ hr {
   border-color: white;
 }
 
+h1 {
+  color: #f6b319;
+}
+
+section {
+	border:	1px solid #61122f;
+	background-color: #f6b319;
+	width: 100%;
+	height: auto;
+	font-family: Helvetica;
+	color: #61122f;
+	position: relative;
+	overflow: auto;
+}
+
+.submenu {
+	border: 1px solid #f6b319;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 1.25em;
+  color: #f6b319;
+  text-shadow: 1px 1px 1px #222;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #61122f;
+}
+
+section > p {
+  width: 90%;
+  height: 100%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: right;
+  overflow: auto;
+}
+
+#chicken-menu {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#beef-menu {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sushi-menu {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
@@ -98,7 +153,7 @@ hr {
     padding-top: 0;
     height: 40px;
   }
-  .navbar-brand h1 {
+  h1, .navbar-brand h1 {
     padding-top: 10px;
     font-size: 6vw;
   }
@@ -117,7 +172,7 @@ hr {
 /********** Super extra small devices Only (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Header */
-  .navbar-brand h1 {
+  h1, .navbar-brand h1 {
     padding-top: 15px;
   }
   /* End Header */
