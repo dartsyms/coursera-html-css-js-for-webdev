@@ -28,7 +28,7 @@ body {
   font-family: 'Lora', serif;
   color: #61122f;
   font-size: 1.5em;
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
@@ -51,7 +51,7 @@ body {
 }
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -30px;
+  margin-top: -35px;
 }
 
 .nav-header {
@@ -173,7 +173,7 @@ section > p {
 @media (max-width: 479px) {
   /* Header */
   h1, .navbar-brand h1 {
-    padding-top: 15px;
+    padding-top: 13px;
   }
   /* End Header */
 }
