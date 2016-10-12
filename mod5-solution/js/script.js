@@ -7,6 +7,10 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
       $("#collapsable-nav").collapse('hide');
     }
   });
+  // Fix for Safari
+  $("#navbarToggle").click(function (event) {
+    $(event.target).focus();
+  });
 });
 
 (function (global) {
